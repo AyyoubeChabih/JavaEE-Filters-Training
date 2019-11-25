@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<h1>Nouvelle Entreprise</h1>
+		<form action="company/addCompany">
+			<table>
+				<tr><td>Identificateur :</td><td>
+					<input type="text" size="10" name="id" />
+				</td></tr>
+				<tr><td>Nom :</td><td>
+					<input type="text" size="30" name="name" />
+				</td></tr>
+				<tr><td>Identificateur :</td><td>
+					<select name="city">
+						<option value="casablanca">Casablanca</option>
+						<option value="rabat">Rabat</option>
+						<option value="fes">Fès</option>
+					</select>
+				</td></tr>
+				<tr><td colspan="2" align="right">
+					<input type="submit" value="Valider" />
+				</td></tr>
+			</table>
+		</form>
+	</body>
+</html>
